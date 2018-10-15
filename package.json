@@ -1,10 +1,10 @@
 {
-  "name": "anydir",
+  "name": "go-anywhere",
   "version": "1.0.0",
-  "description": "anydir can take you to every directory on web",
+  "description": "go-anywhere can take you to every directory on web",
   "main": "src/index.js",
   "bin": {
-    "andir": "bin/anydir"
+    "andir": "bin/goany"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
