@@ -1,7 +1,7 @@
 {
-  "name": "go-anywhere",
+  "name": "go-any-dir",
   "version": "1.0.0",
-  "description": "go-anywhere can take you to every directory on web",
+  "description": "go-any-dir can take you to every directory on web",
   "main": "src/index.js",
   "bin": {
     "andir": "bin/goany"

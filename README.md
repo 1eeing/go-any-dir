@@ -1,5 +1,5 @@
 # 安装
-npm install go-anywhere -g
+npm install go-any-dir -g
 
 # 使用说明
 ```
