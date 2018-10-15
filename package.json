@@ -1,0 +1,32 @@
+{
+  "name": "anydir",
+  "version": "1.0.0",
+  "description": "anydir can take you to every directory on web",
+  "main": "src/index.js",
+  "bin": {
+    "andir": "bin/anydir"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1eeing/copy_anywhere.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1eeing/copy_anywhere/issues"
+  },
+  "homepage": "https://github.com/1eeing/copy_anywhere#readme",
+  "keywords": [
+    "commander",
+    "node"
+  ],
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "ejs": "^2.6.1"
+  },
+  "devDependencies": {}
+}

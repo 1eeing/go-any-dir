@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+  </head>
+  <body>
+      <ul>
+        <% files.forEach(file => { %>
+            <li><a href="<%= dir %>/<%= file %>" ><%= file %></a></li>
+        <%}) %>
+      </ul>
+  </body>
+</html>
