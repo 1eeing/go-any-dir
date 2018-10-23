@@ -5,6 +5,5 @@ npm install go-any-dir -g
 ```
     goany -v|--version 查看版本号
     goany -h|--help 查看帮助
-    goany -p|--port 以指定本地端口启动应用，默认8080端口，例如 goany -p 8999
-    goany -d|--dir 指定启动的根目录，默认当前目录，例如 goany -d /usr
+    goany s|start -p|--port [指定端口，默认8080] -d|--dir [指定路径，默认启动路径]
 ```

@@ -1,6 +1,6 @@
 {
   "name": "go-any-dir",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "go-any-dir can take you to every directory on web",
   "main": "src/index.js",
   "bin": {
