@@ -7,7 +7,8 @@
     "andir": "bin/goany"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commitmsg": "validate-commit-msg"
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "commitmsg": "validate-commit-msg"
+  }
 }
