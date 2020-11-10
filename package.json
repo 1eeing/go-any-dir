@@ -1,6 +1,6 @@
 {
   "name": "go-any-dir",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "go-any-dir can take you to every directory on web",
   "main": "src/index.js",
   "bin": {
@@ -27,7 +27,8 @@
   "dependencies": {
     "chalk": "^2.4.1",
     "commander": "^2.19.0",
-    "ejs": "^2.6.1"
+    "ejs": "^2.6.1",
+    "serve-handler": "^6.1.3"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^2.1.0",

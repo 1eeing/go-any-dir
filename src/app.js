@@ -4,6 +4,7 @@ const chalk = require('chalk');
 const config = require('./config/default');
 const route = require('./helper/route');
 const openUrl = require('./helper/openUrl');
+const serveHandler = require('serve-handler');
 
 class Server {
     constructor(conf){
@@ -14,8 +15,9 @@ class Server {
 
     start() {
         const server = http.createServer(async (req, res) => {
-            const filePath = path.join(this.conf.root, req.url);
-            route(req, res, filePath, this.conf);
+            await serveHandler(req, res, {
+                public: this.conf.root
+            });
         });
 
         server.listen(this.conf.port, this.conf.domain, () => {
